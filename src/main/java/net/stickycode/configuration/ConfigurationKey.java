@@ -9,4 +9,7 @@ public interface ConfigurationKey {
 
   List<String> join(String delimeter);
 
+  default void apply(ResolvedConfiguration resolution) {
+  }
+
 }
